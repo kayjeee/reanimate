@@ -1,13 +1,16 @@
+/**
+ * @jest-environment jsdom
+ */
 import { render } from '@testing-library/react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
-test('renders navbar', () => {
+test('sheba renda', () => {
   render(
     <Router>
       <Navbar />
     </Router>,
   );
 
-  // Your assertions and test logic here
+  // No assertions needed as the test is focused on rendering without errors
 });
