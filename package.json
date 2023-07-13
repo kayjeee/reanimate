@@ -2,18 +2,46 @@
   "name": "reanimate",
   "version": "0.1.0",
   "private": true,
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!axios)"
+    ],
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    },
+    "moduleNameMapper": {
+      "axios": "axios/dist/axios"
+    }
+  },
   "dependencies": {
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-tailwind/react": "^2.0.5",
+    "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.4.0",
-    "bootstrap": "^5.3.0",
+    "axios": "^1.2.1",
+    "axios-mock-adapter": "^1.21.5",
+    "bootstrap": "^5.2.3",
+    "framer-motion": "^7.10.3",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
-    "react-router-dom": "^6.14.1",
+    "react-lazy-load-image-component": "^1.5.6",
+    "react-loading-skeleton": "^3.3.1",
+    "react-paginate": "^8.1.4",
+    "react-player": "^2.11.0",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.4",
     "redux-thunk": "^2.4.2",
+    "tailwindcss": "^3.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -44,7 +72,10 @@
     "@babel/core": "^7.22.8",
     "@babel/eslint-parser": "^7.22.7",
     "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
+    "babel-jest": "^29.6.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.27.5",
