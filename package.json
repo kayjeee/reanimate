@@ -69,6 +69,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.5",
     "@babel/core": "^7.22.8",
     "@babel/eslint-parser": "^7.22.7",
     "@babel/plugin-syntax-jsx": "^7.22.5",

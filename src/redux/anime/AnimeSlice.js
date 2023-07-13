@@ -18,7 +18,7 @@ export const fetchAnime = createAsyncThunk('anime/fetchAnime', async (category) 
     }));
     return aList;
   } catch (error) {
-    console.error('Failed to fetch anime:', error);
+    console.error('Failed to fetch the anime using id:', error);
     throw error;
   }
 });
@@ -32,7 +32,7 @@ export const fetchAnimeById = createAsyncThunk('anime/fetchAnimeById', async (an
     };
     return aData;
   } catch (error) {
-    console.error('Failed to fetch anime by ID:', error);
+    console.error('Failed to fetch the anime using ID:', error);
     throw error;
   }
 });
