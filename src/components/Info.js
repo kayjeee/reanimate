@@ -7,9 +7,9 @@ import Navbar from './NavbarDetails';
 
 const Details = () => {
   const data = useSelector((store) => store.anime.anime);
-  const isLoading = useSelector((store) => store.anime.loading);
+  const isitLoading = useSelector((store) => store.anime.loading);
 
-  if (isLoading) {
+  if (isitLoading) {
     return <div>Loading...</div>;
   }
 
@@ -25,7 +25,9 @@ const Details = () => {
 
   return (
     <div>
-      <Navbar />
+      <div className="fade-in-bg">
+        <Navbar />
+      </div>
       <Container>
         <Row className="justify-content-between align-items-center pl-2 pt-2 pb-2 pr-8 bg-white text-black">
           {data.posterImage?.tiny && (
@@ -34,30 +36,30 @@ const Details = () => {
             </Col>
           )}
           <Col xs={12} md={8} className="text-right">
-            <p className="font-bold text-2xl uppercase">{data.canonicalTitle}</p>
-            <p className="font-semibold text-lg d-flex align-items-center gap-1">
+            <span className="font-bold text-2xl uppercase">{data.canonicalTitle}</span>
+            <span className="font-semibold text-lg d-flex align-items-center gap-1">
               {data.popularityRank}
               <span className="text-sm">rank</span>
-            </p>
+            </span>
           </Col>
         </Row>
-        <p className="pl-2 pt-1 pb-1 text-black bg-white">Check more details - 2023</p>
+        <span className="pl-2 pt-1 pb-1 text-black bg-white">Check more details - 2023</span>
         <ul className="bg-white text-black">
           {listItems.map((item) => (
             <li
               key={item.label}
               className={`h-32 flex justify-between items-center pl-2 pr-2 text-lg ${listItems.indexOf(item) % 2 === 0 ? 'bg-gray-200' : 'bg-gray-300'}`}
             >
-              <p>{item.label}</p>
-              <p className="flex gap-4">
-                <p className="flex gap-1">
+              <span>{item.label}</span>
+              <span className="flex gap-4">
+                <span className="flex gap-1">
                   {item.value}
                   <span>{listItems.indexOf(item) === 1 ? 'minutes' : 'episodes'}</span>
-                </p>
+                </span>
                 <Link to="/" className="top-2 left-38 p-1 border-2 border-black text-black rounded-full">
                   <BsArrowRight className="h-5 w-5" />
                 </Link>
-              </p>
+              </span>
             </li>
           ))}
         </ul>
@@ -65,15 +67,15 @@ const Details = () => {
       <footer className="text-black h-16 bg-white d-flex gap-1 items-center justify-center">
         Built by
         {' '}
-        <a href="https://www.linkedin.com/in/kagiso-sebogodi/" className="underline text-black">
+        <span href="https://www.linkedin.com/in/kagiso-sebogodi/" className="underline text-black">
           kagiso
-        </a>
+        </span>
         {' '}
         & Designed by
         {' '}
-        <a href="https://www.behance.net/sakwadesignstudio" className="underline text-black">
+        <span href="https://www.behance.net/sakwadesignstudio" className="underline text-black">
           Nelson Sakwa
-        </a>
+        </span>
       </footer>
     </div>
   );
