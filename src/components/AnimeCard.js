@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { BsArrowRight } from 'react-icons/bs';
 import { useDispatch, useSelector } from 'react-redux';
 import { Spinner } from '@material-tailwind/react';
-import Navbar from './Navbar';
 import { fetchAnime, fetchAnimeById } from '../redux/anime/AnimeSlice';
 import '../App.css';
+import Navbar from './Navbar';
 
 const AnimeCard = () => {
   const dispatch = useDispatch();
@@ -44,7 +44,9 @@ const AnimeCard = () => {
 
   return (
     <div className="font-gill bg-gray-200">
-      <Navbar />
+      <div className="fade-in-bg">
+        <Navbar />
+      </div>
       <div className="container">
         <div className="p-4 grid grid-cols-3 md:grid-cols-6 gap-2 md:gap-6 text-black">
           {shuffledCategories.map((category) => (

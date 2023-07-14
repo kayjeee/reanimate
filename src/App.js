@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './routes/Layout';
-import Homeroute from './routes/Homeroute';
 import Details from './routes/Details';
 import NotMatchpage from './routes/NotMatchpage';
+import Homeroute from './routes/Homeroute';
 
 const App = () => (
   <div className="App">

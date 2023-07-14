@@ -40,3 +40,18 @@
 .animate-fade-in {
   animation: fade-in 0.5s ease-in-out;
 }
+
+.fade-in-bg {
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -7,9 +7,9 @@ import Navbar from './NavbarDetails';
 
 const Details = () => {
   const data = useSelector((store) => store.anime.anime);
-  const isLoading = useSelector((store) => store.anime.loading);
+  const isitLoading = useSelector((store) => store.anime.loading);
 
-  if (isLoading) {
+  if (isitLoading) {
     return <div>Loading...</div>;
   }
 
@@ -25,7 +25,9 @@ const Details = () => {
 
   return (
     <div>
-      <Navbar />
+      <div className="fade-in-bg">
+        <Navbar />
+      </div>
       <Container>
         <Row className="justify-content-between align-items-center pl-2 pt-2 pb-2 pr-8 bg-white text-black">
           {data.posterImage?.tiny && (
