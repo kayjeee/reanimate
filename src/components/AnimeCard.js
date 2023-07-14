@@ -85,7 +85,7 @@ const AnimeCard = () => {
         Built by
         {' '}
         <a href="https://www.linkedin.com/in/otmaneechchafyky/" className="underline text-sky-500">
-          Otmane Echch
+          kagiso sbogodi aka kayjee legendary
         </a>
         {' '}
         & Designed by
