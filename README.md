@@ -23,6 +23,7 @@
   - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#Contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -180,6 +181,14 @@ npm start
 - [Project 6:] **[Tests (pair programming).]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/kayjeee/reanimate/issues/4).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p designer
+
 <!-- SUPPORT -->
 ## ⭐️ Show your support <a name="support"></a>
 If you find this project valuable and useful, I would greatly appreciate your support. Here are a couple of ways you can show your support:
@@ -191,20 +200,20 @@ Star the Project: If you think this project deserves recognition, please conside
  [kayjeee](https://github.com/kayjeee)
 
 ### GitHub Project Link:(⊙_⊙;)
- [Micro_Verse_React_Maths_Mathematician_App](https://github.com/kayjeee/Micro_Verse_React_Maths_Mathematician_App)
+ [Micro_Verse_React_Maths_Mathematician_App](https://github.com/kayjeee/reanimate)
 
 Thank you for your support and encouragement. It means a lot to me as a developer. If you have any feedback or suggestions, feel free to reach out. Together, we can make this project even better!
 
 Keep coding and stay awesome! 👨‍💻✨
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+ixc
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to express my heartfelt gratitude and give credit to the following GitHub users who have inspired and contributed to this project:
 
-https://github.com/Peter-Dumbari: Their innovative ideas and code snippets were instrumental in shaping certain aspects of this project.
+https://www.behance.net/sakwadesignstudio: Nelson Sakwa Their innovative ideas and code snippets were instrumental in shaping certain aspects of this project.
 https://github.com/10-menachi: Their open-source libraries and documentation provided valuable insights that helped overcome various challenges during development.
 https://github.com/AbdelazizSoliman: Their innovative ideas and code snippets were instrumental in shaping certain aspects of this project.
 https://github.com/bronnie313: Their open-source libraries and documentation provided valuable insights that helped overcome various challenges during development.

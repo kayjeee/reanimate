@@ -31,6 +31,9 @@ const AnimeCard = () => {
     'Mystery',
   ];
 
+  // Shuffle the categories randomly
+  const shuffledCategories = categories.sort(() => Math.random() - 0.5);
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center w-screen h-screen">
@@ -44,7 +47,7 @@ const AnimeCard = () => {
       <Navbar />
       <div className="container">
         <div className="bg-gray-300 p-4 grid grid-cols-3 md:grid-cols-6 gap-2 md:gap-6 text-black">
-          {categories.map((category) => (
+          {shuffledCategories.map((category) => (
             <button
               className="p-1 border-2 border-black ease-in rounded-md bg-gray-200 hover:text-sky-700 hover:bg-sky-800"
               type="button"
@@ -57,7 +60,7 @@ const AnimeCard = () => {
             </button>
           ))}
         </div>
-        <p className="text-black bg-gray-300 p-1 font-lato">Anime by Category</p>
+        <p className="text-black bg-gray-300 p-1 font-lato">Animation movie by Category</p>
         <div className="row">
           {animeList.map((anime) => (
             <div className="col-6" key={anime.id}>
@@ -84,8 +87,8 @@ const AnimeCard = () => {
       <footer className="text-sky-700 h-16 bg-white flex gap-1 items-center justify-center">
         Built by
         {' '}
-        <a href="https://www.linkedin.com/in/otmaneechchafyky/" className="underline text-sky-500">
-          kagiso sbogodi aka kayjee legendary
+        <a href="https://www.linkedin.com/in/kagiso-sebogodi/" className="underline text-sky-500">
+          Kagiso Sebogodi aka Kayjee Legendary
         </a>
         {' '}
         & Designed by

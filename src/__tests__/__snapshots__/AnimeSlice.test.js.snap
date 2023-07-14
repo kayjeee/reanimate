@@ -5,7 +5,7 @@ Array [
   Object {
     "meta": Object {
       "arg": "123",
-      "requestId": "M4btd_9xRvdUPxPAT2cA0",
+      "requestId": "x4iRP59mrMcpa5x1TrkG8",
       "requestStatus": "pending",
     },
     "payload": undefined,
@@ -14,7 +14,7 @@ Array [
   Object {
     "meta": Object {
       "arg": "123",
-      "requestId": "M4btd_9xRvdUPxPAT2cA0",
+      "requestId": "x4iRP59mrMcpa5x1TrkG8",
       "requestStatus": "fulfilled",
     },
     "payload": Object {
@@ -32,7 +32,7 @@ Array [
   Object {
     "meta": Object {
       "arg": "123",
-      "requestId": "lGUuYKIZm3Uc9ZkWq_ARF",
+      "requestId": "PFEYn2z1YBpSGZAp8TXGi",
       "requestStatus": "pending",
     },
     "payload": undefined,
@@ -64,7 +64,7 @@ Array [
       "arg": "123",
       "condition": false,
       "rejectedWithValue": false,
-      "requestId": "lGUuYKIZm3Uc9ZkWq_ARF",
+      "requestId": "PFEYn2z1YBpSGZAp8TXGi",
       "requestStatus": "rejected",
     },
     "payload": undefined,
