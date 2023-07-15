@@ -9,7 +9,7 @@ import AnimeCard from '../components/AnimationCard';
 describe('AnimationCard component', () => {
   it('matches the snapshot', () => {
     // Render the AnimeCard component with the Redux store provided by the Provider
-    const { container } = render(w
+    const { container } = render(
       <Provider store={store}>
         <AnimeCard />
       </Provider>,
