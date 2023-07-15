@@ -4,7 +4,7 @@
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import store from '../redux/store';
-import AnimeCard from '../components/AnimeCard';
+import AnimeCard from '../components/AnimationCard';
 
 describe('AnimationCard component', () => {
   it('matches the snapshot', () => {

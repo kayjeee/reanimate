@@ -1,5 +1,5 @@
 import React from 'react';
-import AnimeCard from '../components/AnimeCard';
+import AnimeCard from '../components/AnimationCard';
 
 const Homeroute = () => (
   <div>
